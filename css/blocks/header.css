@@ -1,0 +1,33 @@
+.header{
+    height: 77px;
+}
+.header__container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.header__col{
+    display: flex;
+    align-items: center;
+} 
+.header__col--align--right{
+    justify-content: flex-end;
+}
+.logo,.contacts{
+	margin-top: 29px;
+}
+.contacts__phone{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.35em;
+}
+.contacts__info{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 1.54em;
+
+	text-decoration-line: underline;
+	text-align: right;
+}

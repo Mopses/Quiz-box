@@ -1,0 +1,100 @@
+.reviews__list{
+    column-count: 2;
+    column-gap: 27px;
+    max-width: 1141px;
+    margin: 122px auto 76px;
+}
+.reviews__item{
+    margin-bottom: 17px;
+}
+.review{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 28px;
+    background: #F4F5F5;
+    border-radius: 5px;
+}
+.review__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.avatar{
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 22px;
+}
+.review__user{
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.75em;
+
+    color: #1A1B1E;
+    margin-bottom: 3px;
+}
+.review__user::after{
+    content: url("../../img/vk-blue\ 1.png");
+    height: 30px;
+    padding-left: 7px;
+}
+.review__user:hover{
+    text-decoration-line: underline;
+    color: #2E77A4;
+}
+.review__tag{
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag{
+    background: #E7E7E7;
+    border-radius: 35px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+
+    color: #303030;
+    padding: 9px 17px;
+    display: inline-block;
+}
+.tag--active{
+    background: #B9EAE4;
+}
+.review__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.4em;
+    color: #1A1B1E;
+    margin-bottom: 30px;
+}
+.review__content-text p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.69em;
+
+    color: #818181;
+}
+.review__content-text{
+    margin-bottom: 48.5px;
+}
+.review__date{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.93em;
+
+    color: #1A1B1E;
+}

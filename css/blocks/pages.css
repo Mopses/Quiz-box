@@ -1,0 +1,15 @@
+.banner-pages__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 97px;
+    margin-left: 390px;
+}
+.banner-pages__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.36em;
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,42 @@
+.banner{
+    margin-top: 92px;
+}
+.banner__content{
+    width: 637px;
+    height: 333px;
+}
+.banner__title{
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.06em;
+    color: #FFF;
+    font-size: 60px;
+    font-family: 'Open Sans';
+}
+.banner__text{
+    margin-top: 27.5px;
+    margin-bottom: 33.5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11em;
+}
+.banner__content--reviews{
+    width: 100%;
+    min-height: 363px;
+    background-image: url("../../img/couple.png"), url("../../img/bannerReview.png");
+    background-repeat: no-repeat;
+    background-position-x: 1009px, 0px;
+    background-position-y: 21px, 0px;
+    background-size: cover cover;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.35em;
+    color: #FFFFFF;
+    padding: 117px 389px;
+    overflow: hidden;
+    white-space: nowrap;
+}

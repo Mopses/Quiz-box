@@ -1,0 +1,41 @@
+.tooltip{
+    background-image: url("../../img/tooltip.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 80px;
+    padding-left: 19px;
+    right: 0;
+    top: 100%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute;
+}
+.worktime{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.62em;
+
+    color: #1E1F20;
+    margin-top: 22px;
+}
+.lunch-time{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.62em;
+    color: #1E1F20;
+}
+.dropdown{
+	display: inline-flex;
+	position: absolute;
+    right: 0;
+}
+.dropdown:hover  .dropdown__tooltip{
+	opacity: 1;
+}

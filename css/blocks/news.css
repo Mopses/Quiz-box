@@ -1,0 +1,54 @@
+.news{
+    position: relative;
+}
+.news__list{
+    margin-top: 51px;
+    display: flex;
+}
+.news__item:nth-child(1){
+    margin-right: 25px;
+}
+.news__content{
+    width: 557px;
+    height: 394px;
+
+    border-radius: 5px;
+    padding-top: 252px;
+    padding-left: 30px;
+}
+.news-games{
+    background-image: url("../../img/people.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news-springgames{
+    background-image: url("../../img/people2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news__date{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5em;
+    
+    color: #FFFFFF;
+}
+.news__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5em;
+
+    color: #FFFFFF;
+    margin-top: 12.5px;
+    margin-bottom: 3.5px;
+}
+.news__subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.31em;
+
+    color: #FFFFFF;
+}
